@@ -57,7 +57,7 @@ jobs:
         cd build && ninja
     - uses: actions/upload-artifact@v3
       with:
-        name: aseprite
+        name: aseprite2023
         path: |
           D:/a/aseprite/aseprite/build/bin/data
           D:/a/aseprite/aseprite/build/bin/aseprite.exe
